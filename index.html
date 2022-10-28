@@ -5,23 +5,23 @@
 </head>
 
 <body>
-	<div id="header">
+	<div class="header">
 		<h1>Metric/Imperial Unit Conversion</h1>
-		<input type="text" id="num-input">
+		<input type="number" id="num-input" oninput="convert()">
 		<button class="card-btn" id="convert-btn">Convert</button>
 	</div>
-	<div id="hero">
+	<div class="main">
 		<div class="unit-box" id="length-container">
-            <p>Length (Meters/Feet)</p>
-            <h5 id="length-text">-- meters = -- feet | -- feet = -- meters</h5>
+            <h5>Length (Meters/Feet)</h5>
+            <p id="length-text"></p>
         </div>
 		<div class="unit-box" id="volume-container">
-            <p>Volume (Liters/Gallons)</p>
-            <h5 id="volume-text">-- liters = -- gallons | -- gallons = -- liters</h5>
+            <h5>Volume (Liters/Gallons)</h5>
+            <p id="volume-text"></p>
         </div>
 		<div class="unit-box" id="mass-container">
-            <p>Mass (Kilograms/Pounds)</p>
-            <h5 id="mass-text">-- kilograms = -- pounds | -- pounds = -- kilograms</h5>
+            <h5>Mass (Kilograms/Pounds)</h5>
+            <p id="mass-text"></p>
         </div>
 	</div>
 	<script src="index.js"></script>

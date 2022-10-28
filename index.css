@@ -1,13 +1,14 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 body {
     margin: 0;
 }
 
-#mode-btn {
-    margin: 10px;
-    padding: 8px;
-}
-
-#header {
+.header {
     margin: 0px;
     background: #6943FF;
     height: 230px;
@@ -25,7 +26,8 @@ h1 {
     padding: 20px;
 }
 
-h5 {
+p {
+    font-size: 15px;
     margin-top: 0px;
     font-weight: normal;
     color: black;
@@ -50,7 +52,7 @@ h5 {
     border: none;
 }
 
-#hero {
+.main {
     background: #F4F4F4;
     display: flex;
     max-width: 100%;
