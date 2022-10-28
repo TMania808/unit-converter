@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+#mode-btn {
+    margin: 10px;
+    padding: 8px;
+}
+
+#header {
+    margin: 0px;
+    background: #6943FF;
+    height: 230px;
+    max-width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 0px;
+    padding: 20px;
+}
+
+h5 {
+    margin-top: 0px;
+    font-weight: normal;
+    color: black;
+}
+
+#num-input {
+    border-radius: 4px;
+    background: #6943FF;
+    border: 1px solid white;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card-btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+#hero {
+    background: #F4F4F4;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.unit-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 10px;
+    height: 150px;
+    width: 80vw;
+    background: white;
+    color: #5A537B;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
